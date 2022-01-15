@@ -1,0 +1,10 @@
+
+print('tuple 1: ')
+a=('101','202', '303', '404', '505', '606', '707', '808', '909', '1010 ')
+b = ", ".join(a[0:4])
+c = ", ".join(a[3:7])
+d= ", ".join(a[5:9])
+print((b,c,d))
+print('mean tuple adalah: ')
+print ([sum(map(float, filter(None, a[0:4])))/(len(a)-1),(sum(map(float, filter(None, a[3:7])))/(len(a)-1)),(sum(map(float, filter(None, a[5:9])))/(len(a)-1))])  
+print('******** Terima Kasih ********')
